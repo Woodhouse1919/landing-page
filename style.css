@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h2 {
+  color: #F9FAF8;
+  font-size: 24px;
+}
+
+.hero h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero,
+footer {
+  background-color: #1f2937;
+}
+
+.hero p, footer {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.sign-up h3, button {
+  color: #3882f6;
+}
+
+.grid h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote-text {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
